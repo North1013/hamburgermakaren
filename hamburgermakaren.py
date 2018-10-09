@@ -4,7 +4,7 @@ order = []
 donkMenu = ["Bread", "Meat", "Vegetables"]
 balance = int(100)
 
-while menu != 3:
+while menu <= 1:
     print("Press 1 to choose toppings\nPress 2 to purchase and end\nPress 3 to end without purchase\n")
     menu = int(input("Make your choice\n"))
     if menu == 1:
